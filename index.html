@@ -84,6 +84,40 @@
     .demo-steps{ display:flex; gap:8px; margin-top:12px }
     .badge{ display:inline-block; padding:6px 8px; border-radius:8px; background:#eef2ff; color:#4338ca; font-weight:700 }
   }
+  <details style="
+  max-width: 500px;
+  margin: 20px 0;
+  border-radius: 14px;
+  background: linear-gradient(135deg, #1e1e2f, #2a2a40);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  padding: 14px;
+">
+
+<summary style="
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffffff;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+">
+  🎨 View Design Preview
+  <span style="font-size:14px; opacity:0.7;">(click)</span>
+</summary>
+
+<div style="margin-top:15px; text-align:center;">
+  <img src="https://raw.githubusercontent.com/USERNAME/REPO/main/image.png"
+       style="
+         width:100%;
+         border-radius:12px;
+         border:2px solid rgba(255,255,255,0.15);
+       ">
+</div>
+
+</details>
+
     /* --- Basic page (for demo) --- */
     body{
       font-family: "Segoe UI", Tahoma, Arial, sans-serif;
@@ -216,7 +250,29 @@
       background:rgba(190, 6, 246, 0.6);
       border:1px solid rgba(163, 5, 5, 0.04);
     }
-    .footer-links svg{ width:18px; height:18px }
+    .footer-links svg{ width:18px; height:18px 
+    }
+    /* Canva-style button */
+.canva-btn{
+  display: inline-block;
+  padding: 14px 32px;
+  background: linear-gradient(135deg, #7b2ff7, #00c6ff);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  border-radius: 30px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transition: all 0.3s ease;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.canva-btn:hover{
+  transform: translateY(-3px) scale(1.05);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.35);
+  background: linear-gradient(135deg, #00c6ff, #7b2ff7);
+}
+
   </style>
 </head>
 <body>
@@ -247,7 +303,30 @@
       </div>
 
       <div style="display:flex;justify-content:center;gap:8px;margin-top:8px;">
-        
+        <!-- CSS Link -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<a href="https://duaeducational.github.io/quiz5to8/"
+   target="_blank"
+   class="canva-btn">
+   Simple Test 5th : 8th
+</a>
+
+<!-- CSS Link -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+
+
+<a href="https://duaeducational.github.io/9-10/"
+   target="_blank"
+   class="canva-btn">
+   Simple Test 9th  : 10th
+</a>
+
       </div>
        
       <div style="margin-top:20px; padding:15px; background:#f0f9ff; border-radius:10px;">
@@ -269,7 +348,8 @@
           ايڊمن جي منظوري 24 ڪلاڪن اندر ٿي ويندي.
         </p>
       </div>    
-  
+
+        
 
       <div style="display:flex;flex-wrap:wrap;justify-content:center;margin-top:12px; gap:15px;">
         <div class="small-card">
@@ -329,6 +409,7 @@
           <span class="tooltip" role="tooltip">Facebook Group</span>
         </a>
 
+
         <a
           class="social-btn whatsapp"
           href="https://chat.whatsapp.com/GzjZLkgNvS8LQpIpqm1li5?mode=hqrt1"
@@ -341,9 +422,11 @@
           </svg>
           <span class="tooltip" role="tooltip">WhatsApp Group</span>
         </a>
+
+        
       </div>
 
-      <h2 style="background-color: #f00aab;">MEGA TEST SIMPLE PAPER </h2>
+      <h2 style="background-color: #f00aab;">MEGA TEST SIMPLE PAPWE </h2>
       <div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
     <!-- PDF 1 -->
     <div style="width: 150px; height: 250px; border-radius: 10px; margin: 5px; background: white; box-shadow: 0 4px 8px rgba(0,0,0,0.1); display: flex; flex-direction: column; align-items: center; justify-content: center; border: 1px solid #eee;">
@@ -401,7 +484,13 @@
         <img src="p10.jpg" alt="Sir Niaz" onerror="this.style.display='none'">
         <img src="p11.jpg" alt="Sir Niaz" onerror="this.style.display='none'">
       </div>
-    </section>
+      <details>
+  <summary>🖼 UI Screenshots</summary>
+  <br>
+  <img src="Sir gada hussain.jpg" width="45%">
+  <img src="ubedulla khan.PNG" width="45%">
+</details>
 
+    </section>
 
     
