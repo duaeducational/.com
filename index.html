@@ -273,6 +273,75 @@
   background: linear-gradient(135deg, #00c6ff, #7b2ff7);
 }
 
+/* Main container */
+.container {
+  max-width: 1500px;
+  margin: 40px auto;
+  font-family: Arial, sans-serif;
+}
+
+/* Details box */
+details {
+  border-radius: 12px;
+  background: #01253b;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  padding: 15px;
+}
+
+/* Summary = Button */
+summary {
+  list-style: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #5f2cff, #940886);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+/* Remove default arrow */
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Hover effect */
+summary:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Images box */
+.images {
+  margin-top: 20px;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Image styling */
+.images img {
+  width: 40%;
+  height: 7%;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+  transition: transform 0.3s ease;
+}
+
+.images img:hover {
+  transform: scale(1.05);
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+  .images img {
+    width: 100%;
+  }
+}
+
   </style>
 </head>
 <body>
@@ -349,8 +418,9 @@
         </p>
       </div>    
 
-        
+      
 
+  
       <div style="display:flex;flex-wrap:wrap;justify-content:center;margin-top:12px; gap:15px;">
         <div class="small-card">
           <div class="card-header">Director</div>
@@ -468,8 +538,24 @@
     </div>
   </div>
 
-<h2 style="background-color: #f00aab;"> PROGRAM FIRST SEMESTER COMPLETE &  MONTHLY TEST RESULT  </h2>
+
+  
+
+
+<div class="container">
+  <details>
+    <summary>Gallery Dua academy  Picture Click </summary>
+
+    <div class="images">
+      <h2 style="background-color: #f00aab;"> PROGRAM FIRST SEMESTER COMPLETE &  MONTHLY TEST RESULT  </h2>
       <div class="teacher-gallery" aria-hidden="false">
+        <img src="pattern 1 .jpeg" alt="Screenshot 1">
+    <img src="pattern 2.jpeg" alt="Screenshot 1">    
+    <img src="pattern 3.jpeg" alt="Screenshot 1">
+    <img src="pattern 4.jpeg" alt="Screenshot 1">
+    <img src="pattern 5.jpeg" alt="Screenshot 1">
+    <img src="patterm 6.jpeg" alt="Screenshot 1">
+    
         <img src="sir gada.PNG" alt="Sir Gada" onerror="this.style.display='none'">
         <img src="p6.jpg" alt="Ahmed" onerror="this.style.display='none'">
         <img src="p2.jpg" alt="Ubedullah Khan" onerror="this.style.display='none'">
@@ -483,13 +569,31 @@
         <img src="p12.jpg" alt="Ubedullah Khan" onerror="this.style.display='none'">
         <img src="p10.jpg" alt="Sir Niaz" onerror="this.style.display='none'">
         <img src="p11.jpg" alt="Sir Niaz" onerror="this.style.display='none'">
+
+        <img src="1.jpeg" alt="Screenshot 1">
+    <img src="2.jpeg" alt="Screenshot 1">
+    <img src="4.jpeg" alt="Screenshot 1">
+    <img src="5.jpeg" alt="Screenshot 1">
+    <img src="6.jpeg" alt="Screenshot 1">
+    <img src="7.jpeg" alt="Screenshot 1">
+    <img src="8.jpeg" alt="Screenshot 1">
+    <img src="9.jpeg" alt="Screenshot 1">
+    <img src="10.jpeg" alt="Screenshot 1">
+    <img src="11.jpeg" alt="Screenshot 1">
+    <img src="12.jpeg" alt="Screenshot 1">
+    <img src="13.jpeg" alt="Screenshot 1">
+    <img src="15.jpeg" alt="Screenshot 1">
+    <img src="16.jpeg" alt="Screenshot 1">
       </div>
-      <details>
-  <summary>🖼 UI Screenshots</summary>
-  <br>
-  <img src="Sir gada hussain.jpg" width="45%">
-  <img src="ubedulla khan.PNG" width="45%">
-</details>
+    </div>
+  </details>
+</div>
+
+
+
+
+  </details>
+</div>
 
     </section>
 
